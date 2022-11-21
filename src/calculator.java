@@ -16,6 +16,8 @@ public class calculator {
                 System.out.println("Sum is " +k );
             case 2: k=a-b;
                 System.out.println("Difference is "+k);
+            case 3: k=a*b;
+                System.out.println("Product is "+k);
             default:
                 System.out.println("Invalid input");
         }
